@@ -192,6 +192,22 @@ img { max-width: 100%; height: auto; display: block; }
 .about-social-icon { font-size: 1.4rem; margin: 0 var(--mb1); }
 .about-social-icon:hover { color: var(--first-color); }
 
+.about-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.about-photo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 /*PORTFOLIO*/
 .portfolio { background-color: var(--white-color); }
